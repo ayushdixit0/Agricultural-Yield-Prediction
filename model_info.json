@@ -1,0 +1,17 @@
+{
+    "project_name": "Data Analytics Framework for Agriculture Yield Prediction",
+    "model": "RandomForestRegressor",
+    "features": [
+        "State",
+        "Crop",
+        "Soil_Type",
+        "Rainfall_mm",
+        "Temperature_C",
+        "Humidity_Percent",
+        "Fertilizer_kg_per_hectare",
+        "Area_Hectares"
+    ],
+    "target": "Yield_tonnes_per_hectare",
+    "target_unit": "tonnes per hectare",
+    "dataset_type": "Simulated educational dataset"
+}
